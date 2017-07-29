@@ -1,19 +1,31 @@
 body {
-  margin: 0;
-  font-family: 'Lato', sans-serif;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 #menu {
-  text-align: center;
-background: #222;
+	text-align: center;
+	background: #222;
+	font-size: 20px;
+	color: white;
+	
 }
 
-nav#manu > ul {
+nav#menu>ul {
 	margin: 0;
-	padding: 15px;
 }
 
-nav#manu > ul > li.menu-item {
-	display: inline;
+nav#menu>ul>li.menu-item {
+	display: inline-block;
+	padding: 25px;
+	list-style: none;
 }
 
+nav#menu > ul > li.menu-item a {
+	text-decoration: none;
+	color: #fff;
+	}
+
+nav#menu > ul > li.menu-item a:hover {
+	color: gray;
+	}
